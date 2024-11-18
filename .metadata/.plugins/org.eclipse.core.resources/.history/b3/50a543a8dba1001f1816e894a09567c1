@@ -1,0 +1,5 @@
+package com.piseth.java.school.phoneshopnight.service.util;
+
+public interface PageUtil {
+
+}

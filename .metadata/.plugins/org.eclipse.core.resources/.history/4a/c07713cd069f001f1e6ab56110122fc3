@@ -1,0 +1,5 @@
+package com.piseth.java.school.phoneshopnight.repository;
+
+public interface BrandRepository {
+
+}

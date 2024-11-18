@@ -1,0 +1,20 @@
+package com.piseth.java.school.phoneshopnight.spec;
+
+import javax.persistence.criteria.CriteriaBuilder;
+import javax.persistence.criteria.CriteriaQuery;
+import javax.persistence.criteria.Predicate;
+import javax.persistence.criteria.Root;
+
+import org.springframework.data.jpa.domain.Specification;
+
+import com.piseth.java.school.phoneshopnight.entity.Brand;
+
+public class BrandSpec implements Specification<Brand>{
+
+	@Override
+	public Predicate toPredicate(Root<Brand> root, CriteriaQuery<?> query, CriteriaBuilder criteriaBuilder) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
